@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4088108e3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cafeteria Oslo|Inicio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header__logo">
+                <a href="index.html"><img src="Logo.png" alt="logo"></a>
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="espacio.html">el espacio</a></li>
+                <li><a href="product.html">menu</a></li>
+                <li><a href="reservas.html">reservas</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+        <div class="header__center">
+            <h1>recien hecho, todos los dias</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quaerat esse minus repellendus eveniet.</p>
+        </div>
+    </header>
+    <section class="section__container">
+        <div class="split__box">
+            <div class="split__box-left">
+                <h3>ven al bronch de los domingos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, facilis. Sint, quia?</p>
+            </div>
+            <div class="split__box-right">
+                <h3>celebra tus fiestas con nosotros</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae nobis optio.</p>
+            </div>
+        </div>
+        <div class="section__breakfast">
+            <h3>ven a desayunar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, voluptas ex. Ut laborum esse quam aperiam, consequuntur, velit neque enim perspiciatis eveniet ipsam beatae totam.</p>
+            <input type="button" value="descubre nuestros productos">
+        </div>
+    </section>
+    <section class="section2__container">
+        <section class="section__product">
+            <article>
+                <div class="article__pic">
+                    <img src="Icono1.png" alt="">
+                </div>
+                <div class="article__text">
+                    <p>pan recien hecho</p>
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUM.LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUM</p>
+                </div>
+            </article>
+            <article>
+                <div class="article__pic">
+                    <img src="Icono2.png" alt="">
+                </div>
+                <div class="article__text">
+                    <p>tartas para cada dia</p>
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUM.</p>
+                </div>
+            </article>
+            <article>
+                <div class="article__pic">
+                    <img src="Icono3.png" alt="">
+                </div>
+                <div class="article__text">
+                    <p>prueba nuestros dulces</p>
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUM.LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUMLOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUM</p>
+                </div>
+            </article>
+            <article>
+                <div class="article__pic">
+                    <img src="Icono4.png" alt="">
+                </div>
+                <div class="article__text">
+                    <p>ingredientes ecologicos</p>
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUMLOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR VEL ILLUM. QUISQUAM, ACCUSANTIUMLOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. INCIDUNT SIT ERROR .</p>
+                </div>
+            </article>
+        </section>
+        <div class="split__box">
+            <div class="split__box-left">
+                <h3>contacta con nosotros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, facilis. Sint, quia?</p>
+            </div>
+            <div class="split__box-right">
+                <h3>¿sabes donde estamos?</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae nobis optio.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer__logo">
+                <img src="Logo.png" alt="">
+            </div>
+            <p>
+                todos los derechos reservados &copy; <span>maxi diaz</span>
+            </p>
+        </footer>
+    </section>
+
+    <script>
+        let menuIcon = document.getElementById('menu-icon')
+        let menu = document.getElementById('menu')
+        
+        menuIcon.addEventListener('click',function(){
+            menu.classList.toggle('responsive')
+        })
+    </script>
+</body>
+</html>

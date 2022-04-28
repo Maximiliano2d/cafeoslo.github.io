@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4088108e3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="espacio.css">
+    <title>Cafe Oslo|Espacio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header__logo">
+                <a href="index.html"><img src="Logo.png" alt="logo"></a>
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="espacio.html">el espacio</a></li>
+                <li><a href="product.html">menu</a></li>
+                <li><a href="reservas.html">reservas</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+    </header>
+    <section class="div__superior">
+        <div class="contenedor-left">
+            <p><span>el</span>es</p>
+            <p>pacio</p>
+        </div>
+        <div class="contenedor-right">
+            <div class="rombo1"></div>
+            <div class="rombo2"></div>
+        </div>
+    </section>
+    <section class="div__inferior">
+        <div class="img-absolute"></div>
+        <div class="arriba">
+            <div class="arriba-txt">
+                <div class="subrayado-div"></div>
+                <h4>El bello espacio de cafe oslo</h4>
+                <div class="arriba-txt-p">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quia.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum dignissimos sed fuga rem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minima distinctio mollitia cupiditate perferendis recusandae reiciendis voluptatum dolorum, nulla impedit.</p>
+                </div>
+            </div>
+            <div class="arriba-img">
+            </div>
+        </div>
+        <div class="abajo">
+            <div class="izq">
+                <div class="izq-img"></div>
+                <div class="izq-txt">
+                    <h4>Le service au cœur des étoiles</h4>
+                    <div class="txt">
+                        <p>Pour Danielle Baumann Haeberlin,  le service se vit à chaque instant, à travers chaque membre de la grande famille de L’Auberge de l’Ill qui vous reçoit.</p>
+                        <p>Un regard bienveillant, un sourire vrai, une oreille attentive et discrète… L'esprit de la maison enveloppe chacun...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="der">
+                <div class="der-txt">
+                    <div class="subrayado-div"></div>
+                    <h4>Le Chef d’aujourd’hui</h4>
+                    <div class="txt">
+                        <p>Marc Haeberlin incarne la richesse et l’âme de la cuisine de l’Auberge de l’Ill. Travail inlassable, humilité, passion chevillée au corps et plaisir animent le Chef depuis son entrée dans le métier.</p>
+                        <p>Un plaisir authentique qui donne à la finesse de sa cuisine gastronomique le goût du bonheur, qui rend les gens heureux.</p>
+                        <p>Marc Haeberlin fait rimer excellence avec partage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__logo">
+            <img src="Logo.png" alt="">
+        </div>
+        <p>
+            todos los derechos reservados &copy; <span>maxi diaz</span>
+        </p>
+    </footer>
+
+    <script>
+        let menuIcon = document.getElementById('menu-icon')
+        let menu = document.getElementById('menu')
+        
+        menuIcon.addEventListener('click',function(){
+            menu.classList.toggle('responsive')
+        })
+    </script>
+</body>
+</html>
